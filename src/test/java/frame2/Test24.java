@@ -16,10 +16,10 @@ public class Test24 {
 		//Launch site
 		driver.get("https://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_submit");
 		
-		//Thread.sleep(5000);
+		Thread.sleep(5000);
 		driver.findElement(By.id("accept-choices")).click();
 		WebElement e=driver.findElement(By.id("menuOverlay"));
-		//driver.switchTo().frame(e); 
+		driver.switchTo().frame(e); 
 		
 	}
 }

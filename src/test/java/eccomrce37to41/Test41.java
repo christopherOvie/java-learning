@@ -20,8 +20,7 @@ public class Test41 {
 				driver.manage().window().maximize();
 				//Launch yahoo site
 				driver.get("http://www.yahoomail.com");
-				Thread.sleep(5000);
-//				driver.findElement(By.linkText("Sign in")).click();
+			
 				Thread.sleep(5000);
 				
 				//Do login
